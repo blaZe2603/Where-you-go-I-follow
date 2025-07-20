@@ -1,0 +1,7880 @@
+fileFormatVersion: 2
+guid: 1c47a365725daf545bc474ac603f484d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Download1383_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3392
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f7b393fe3a37648bec12c75a11b1e8
+      internalID: 204545016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3392
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afa1b15d5ce8434199d4f47d10d4934
+      internalID: -1560511260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3392
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b24b0f1715ddab4d82390ec86ebcdd0
+      internalID: -491558801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3392
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8717d4ea9c9861948bc8bc9f7108b739
+      internalID: -373068298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_4
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 3392
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f64d16cfbb575c428670f9d21eefed5
+      internalID: -242743585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 3392
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2275e6d39cec0794592e21e7f89b8b6b
+      internalID: 1780567125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 3392
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765d9549dd8f45c47a0e463ecea46e87
+      internalID: -743716711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 3329
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc55c9e95607d74ba7d4ce68da4ceda
+      internalID: -1491302343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3329
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82a7feeedd23124aa8bf6914f4a5a93
+      internalID: -58226374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3329
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59ad6fb5e0f6204196f3d9881e10c69
+      internalID: 944061819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3329
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7afddd92a5f264a970b1b925c07706
+      internalID: 1892130328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 3329
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d99e11bd8d4a0409e5de7a54eafe97
+      internalID: -1135592119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 3329
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacaeb89dc5b79a47bd5a59e3c451d69
+      internalID: -608974748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3329
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fdb16e50c698c142a4ef3b7b4f67a71
+      internalID: -1469975755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_14
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3264
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb008b9ac7d7aa4ba5fbba12f20c9c6
+      internalID: -1551989308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 3264
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4139460d7a779e141bf88b0a18b9e5b1
+      internalID: -1205862529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3264
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c2a24665e8f874d9bc63c066dd4f8c
+      internalID: -1392328285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_17
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 3264
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3baeed7816f88f4c9ba96716a0e6b04
+      internalID: -28599075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 3264
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f32839753b58a488ef4dbd67d23693
+      internalID: -1140976331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 3264
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abffda6e904b01045969b90ff97eeadd
+      internalID: 1742619581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_20
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3264
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a1bf8462b972949a34062dfc09446c
+      internalID: 1482699343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 3200
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699684b3a024a414ea0691979337a193
+      internalID: 424503835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_22
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3200
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519e67343b28ce24189b017c18be9c34
+      internalID: 1134543614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_23
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3200
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2b1d417a49a5f4991a2cc6245cb99f
+      internalID: -1169006382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3200
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d53bcb17f17c834389427aa7f330c44
+      internalID: 745616026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_25
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3200
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c707721090ee944a0a43704b3f75cf
+      internalID: -1259950517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 3200
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0861dc39b87dfb34da46a2a325b62a25
+      internalID: 1071234152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_27
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3200
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a93011dd03fc0419f07583f8a1b672
+      internalID: 2031361107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3136
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f725be80aa9864c9f5200a694d60de
+      internalID: 29030338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 3135
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39108828eabdd8c40a541c94d37a5aab
+      internalID: 1156410588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 3135
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8193c7a1e549f894d9b5156b87ee0a01
+      internalID: 1495918319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3135
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d06d9824de94a8478bc5d4ef737edcf
+      internalID: -232971630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_32
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 3135
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6a823b11bf7bf489bd68155e22049b
+      internalID: 1331515327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_33
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 3135
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67a9d6e3f91ba74183ed01ffce7b93f
+      internalID: 201545618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_34
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 3135
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c15f3234e08274db1ea76ecd7c53f2
+      internalID: -114496782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_35
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 3135
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e496d916972734ba6d2d2e3fafe0b7
+      internalID: -1841350016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 3072
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23281d45ba09b6e40b0c45f3280c6f1e
+      internalID: -788293125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3072
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a94fe53cbcc834bb2231d9a5406944
+      internalID: 202275053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3072
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c5b1c71059d7247b0c2dbe5a8933cf
+      internalID: 917600527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3072
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5582ec3aa8c0daf408e3c5111d0dfb37
+      internalID: -802094014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_40
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 3072
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cf7183712c4c143b17d828b0c342b3
+      internalID: 2045396777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_41
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 3072
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca9321ca2edd7340bbd9e926aea59f6
+      internalID: 454161487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_42
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 3072
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ded1c5df98a6d4183c8b0a7fe66bb8
+      internalID: -1297024315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_43
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 3072
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937d8369bdf609b448f8451ad6a43846
+      internalID: 1005746135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_44
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3008
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c822cff60b1a36f4eb45ea67ecd7a082
+      internalID: 1088274132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3010
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935e56dfdf79fab42a81408ee98fd702
+      internalID: 1182406092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_46
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3010
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3509baeec61d3574898a8e8bf89efda8
+      internalID: -1803986092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3010
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179e94abe9d8bfd418ce853dd09acb9a
+      internalID: 869026947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_48
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 3010
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e8259dc6e591e44a10804cc3889190
+      internalID: 1014797150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_49
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 3010
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7c8821104ae6d4e8691c25347f6cb5
+      internalID: -668175226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 3010
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6562c0826603ce444beb8e6b709e1a64
+      internalID: 95364987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_51
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 3010
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b111ad46d4844043a55c5eb464aaa39
+      internalID: -952643086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2944
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1a6e3e105ea7c42b2595a4d2d97deb
+      internalID: -792467232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2944
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5624c4829f29f94e800a1b329d2113a
+      internalID: -1724739888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_54
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2944
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e4027f2f3f0074899d22e4a9872af7
+      internalID: 1315083013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_55
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2944
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c821b95710a991749ae1e8f59c834dc6
+      internalID: -132159527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_56
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 2944
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0534be6165724074d8ddedbf24070e38
+      internalID: 287632869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_57
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 2944
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581c9048712f3c440aee83075d41a87b
+      internalID: 578500915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_58
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2944
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a7fe22a41002044bca39cd99b4084b
+      internalID: -883451346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_59
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2944
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa3dc2a10050de42ae9839495077eae
+      internalID: -1981497875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_60
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2881
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e9514a489796a4e9a4c7c5e545046c
+      internalID: 1369472777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2881
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cf6e686d708e44eab0d9d373a3147e
+      internalID: -1801718954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_62
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2880
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5c6460010cc4242a4e7c8fe79cc339
+      internalID: 1109420456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_63
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2879
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610cfddb83627044186372c70050d0ad
+      internalID: 1656807715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_64
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2880
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3095a200b346e478c2c75e61ed11d6
+      internalID: -734990211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_65
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2881
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b192222ec807ee4ab8ac2f62cb5e6d3
+      internalID: 870569402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_66
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2880
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a39c87d5990bd4aa5ced92c515c92a
+      internalID: 1122310850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_67
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2879
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8708364035d042b41a027e253fbf505a
+      internalID: -317849627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_68
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2880
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921ab77e078f42e41ac22894a692b3f3
+      internalID: 277888234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_69
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2816
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4321e32924a24b4479ed036c702317a4
+      internalID: 1015154786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_70
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2816
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe81e93cc6bc3d4bad81b091834b110
+      internalID: -867659928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_71
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2817
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45961bc0763840440bc99e628cb3808e
+      internalID: 1519949507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_72
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2817
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a293263f9cb754aa962148e0c304e6
+      internalID: -1135229124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_73
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2816
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844acb8d231e6b84996db83ec412f701
+      internalID: -2072315133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_74
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2816
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc71c65fd7a43a4983ffa191f3968c0
+      internalID: 462033336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_75
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 2816
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd10c1be1b091e843b5d493f72eafc71
+      internalID: 666246930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_76
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 2816
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284c1c4a590f440498cb123dc981f94d
+      internalID: -2094506530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_77
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 2816
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586b1955d9710e54586db757af6ce4a0
+      internalID: 769214191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_78
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2751
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96704f3738c4734898dab1220cea4c7
+      internalID: 282013159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_79
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2751
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbf6fcddceb90c4ca8d385c65cc69f0
+      internalID: -1513031358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_80
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2751
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11c425b0dabc5848b93ed3ad34681fc
+      internalID: -172902509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_81
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2751
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbe828f87e22894a9391a06a8f9d2d9
+      internalID: 1968110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_82
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2751
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac4c615d30936d4787df41e1aa55587
+      internalID: 570102983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_83
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2751
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1784bb3b382283b48a468d101b254977
+      internalID: 982105607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_84
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2751
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261b7d9b3f6993748a8cda11bb95e72c
+      internalID: -1700795774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_85
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2751
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4970c618d33ee041894b9db26a8487d
+      internalID: -1907078957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_86
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2751
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28deb839150e2c47b1b43ca4d8a832a
+      internalID: 1870176624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2687
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f3cdf09ba0a1b4d9315caf611f21b3
+      internalID: 856772458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_88
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2687
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbe240770fc3af4cad29ab08cbda47a
+      internalID: -866452145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_89
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2689
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c42c117956a834daa88ecdccca5711
+      internalID: 175707425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_90
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2689
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7fa9213a08bb445988a8eec346bc86
+      internalID: 130978969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_91
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2687
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf744b3c56c2134f949aa4058a62189
+      internalID: 165090459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_92
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2687
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37361e521e6a80a498233c4772d5dac6
+      internalID: 372372460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_93
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2687
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b083b2172446b4b9eef23e19aa1e5f
+      internalID: -549538427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_94
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2687
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65db35a864e07fc40bd3e1d67a2f1471
+      internalID: -1719564209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_95
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2687
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c477f7b95a95d1c4c9ad04945dcec50e
+      internalID: -1205909840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_96
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2623
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07b3050a6de0054e956f89a5b0bbac6
+      internalID: 731988927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_97
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2623
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5cd9a8cf677f64493e6db25264a22b
+      internalID: -943584521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2623
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c31040ffe295784797bc228a9a0f365
+      internalID: -2113195309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_99
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2623
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47d3e1df90e076488843908cedd1e50
+      internalID: 1028361618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2623
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235f128b192614d4e9feead8cb95a9e9
+      internalID: -966258831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_101
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2623
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b4c05fec58d99499c5acb3e71a4944
+      internalID: 128930256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_102
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2559
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2625d1cbae5dba4195696a9b24a4817
+      internalID: -1602059261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_103
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2559
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9180319228aa9fd45a8c3e82443b1590
+      internalID: 69049314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_104
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2559
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95de2010b91837e43b7d20bb4816e3b1
+      internalID: -2107088587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_105
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2559
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a17e998fe4ae4a43a60e826a9bb3834
+      internalID: 571050938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_106
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2559
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b486677db2128e141a3dfe5421085998
+      internalID: 672150435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_107
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 2559
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f8001f5c7121f4193eed33852e5fe0
+      internalID: -1699522611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_108
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2497
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee277ef36807d724a91b141c7ed77252
+      internalID: -1517506139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_109
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2497
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5cbfd36c9197448bc41bd70a730e62
+      internalID: 531055677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_110
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2497
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e308f1fb8488344f9cd94a4e6deeafe
+      internalID: 1882768498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_111
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 2497
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85188ae835feaf04b857f5722f453f63
+      internalID: 1458737190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_112
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2497
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f148cbdf41733b44586cc04e511c00c0
+      internalID: -750572077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_113
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2497
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6cd0c1d5d67d847bd26d768eb20017
+      internalID: 1256609258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_114
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2433
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f237420e14356f4b89310f4b6e21b2e
+      internalID: -1603562931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_115
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2433
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bada173a2d92e77409aa6f6a38c8861c
+      internalID: 1605520438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_116
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2433
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8d1ec91d1956440bd9165f1cb2134c
+      internalID: -680387921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_117
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2433
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c682cc612bdcf42b8473b455fcc319
+      internalID: 1672399778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_118
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 2433
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fce997e97ac4d9419b45872987744ea
+      internalID: 1236514119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_119
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2433
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1cfbe8d5761514b8ff7c1de61cb8ab
+      internalID: 1604655908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_120
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2368
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a61023f9cc9ac04981536bcb56225ac
+      internalID: 585916791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_121
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2366
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166e95d23ba12bc408fd0a905cd941ec
+      internalID: -1211163189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_122
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2366
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d63c7493deda844f87bc6118bd357ed
+      internalID: -25738331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_123
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2366
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b27c12fd6244649a0ef4c3af269ee6
+      internalID: -354180159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_124
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2366
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e33559afcc5fe4b9ea31f14172c19e
+      internalID: 1930986690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_125
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2366
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc8145dd65bae44e812118bbd993535
+      internalID: -627747242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_126
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2366
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5957831183ae04d9cc91ea15c3cc21
+      internalID: 2043762248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_127
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2366
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cc5b921f1036e4e9fd1f53b879c6f4
+      internalID: 1613693514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_128
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2366
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681efdf009d16f04d93a2e54d8ae007b
+      internalID: -1445532526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_129
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2366
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812c00d8ace88c54c921679820b26f27
+      internalID: 410686172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_130
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 2366
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758a9864fc2388343a33e04122ffe26a
+      internalID: 200120233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_131
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2366
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774d4b05295200a47b361daf4953fe26
+      internalID: 153447774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_132
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 2366
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3840dce367fad46b7dd74db9fd6699
+      internalID: -644593136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_133
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2304
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796998f12ed102243909d034467058cf
+      internalID: 917714314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_134
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2304
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fb120846835e846bb21da0fa2a0780
+      internalID: -441959102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_135
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2304
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517325d28085e2547a0402cc0210825e
+      internalID: 1165742938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_136
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 2304
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd0b1725d2cbd14a9eb459e46710958
+      internalID: -1168556806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_137
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 2304
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484266bb9ccc5d54f83b6a53525f0421
+      internalID: 2137083515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_138
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 2304
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3e9d80041833d4d870d61406d43f62
+      internalID: 1799834022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_139
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2304
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8611ee568f9ca043a29d8d611fd2168
+      internalID: 1025769807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_140
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 2304
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa14ae28681c7f24d9c46640d446caf7
+      internalID: -1066974856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_141
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2304
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083d03e11fdc82d43ab4e9f5e53b3596
+      internalID: 361794136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_142
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 2304
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc2c8f9184fbb74785e8134c40f7cd9
+      internalID: -771592676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_143
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 2304
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79c460f2ba934c478e131ed4b193213
+      internalID: -1863253421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_144
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 2304
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f93492794aa3f94ca2c1e6fcbadaa99
+      internalID: -230925795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_145
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 2304
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fee02f987d621e4799d8445df0abe37
+      internalID: 724879094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_146
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2240
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9445290d3c7b7504b8c5dc460bd82be3
+      internalID: 1442891585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_147
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2240
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec3a8e2095953d47a1472b0ebd1da0c
+      internalID: 502639433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_148
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2240
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388cc8a7664851e4f9e5f620e76d94ac
+      internalID: -1395185068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_149
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2240
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbe69e664f46ca4791f837a229a9759
+      internalID: 20301410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_150
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2240
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8fd24d79aef384cba27d09e69a1319
+      internalID: -618050732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_151
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2240
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9ff324a1c69a145875b01e5e1f2849
+      internalID: -635295835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_152
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 2240
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0cd49032bce854e8ea3386b5ab1192
+      internalID: -810507764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_153
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2240
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f073e3034298a41a633438f54ecc3c
+      internalID: -1665029645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_154
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 2240
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f975771e86e9048b95c7b6092863aa
+      internalID: 1277894162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_155
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 2240
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d254ecc1461066428a73c6974be91ed
+      internalID: -331917465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_156
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2240
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a6a19cacf2dcc4e989762cfae20cd5
+      internalID: 775885134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_157
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2240
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c906c8929c3644f479bee4b6f67514c8
+      internalID: 1309954577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_158
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2240
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276264d0ec33f674996f210b6c424343
+      internalID: 978572687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_159
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2176
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2810434de4e76394cba26d38047c698a
+      internalID: 1096035160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_160
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2176
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4029d7ff0352a7b4bbbd44da3b2807f4
+      internalID: -1092093072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_161
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2176
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b04762dd3e90f4eb7781bc18ab32b1
+      internalID: -907384539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_162
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 2176
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299d47090b8a06f4085e1b703a732706
+      internalID: 1547298249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_163
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2176
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89e9a7c212d1424e8d013e75907a2c5
+      internalID: 364349538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_164
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2176
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70c460125d6ba442a66be2d860a97d6
+      internalID: -1530699065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_165
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 2176
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbddad8caaa4fa84bbd570235b3a1584
+      internalID: -631858295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_166
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 2176
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04412b1497b7c4043859986f71e881d7
+      internalID: -476540999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_167
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 2176
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336e2be7a1f7f9b458eba915fc338336
+      internalID: -1782716045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_168
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 2176
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ea1ac71f12c034e8d71103a5d589fa
+      internalID: -466411197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_169
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2176
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcd1a5fbf83f734b81ba6254f94aa4c
+      internalID: 1606250229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_170
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 2176
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe814863382e804fabeaede4a2af972
+      internalID: -1692963917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_171
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 2176
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e3ccc1d139eb34098ff15fbb3ab150
+      internalID: 233903297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_172
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2112
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc356ceb72bf814184ea37f17dd41b8
+      internalID: -32319293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_173
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2112
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183656a6632d19b4faf458bc42f25435
+      internalID: 126127796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_174
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2112
+        width: 36
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de138e8cf800de448dd2899f68f2038
+      internalID: -2049840710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_175
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2114
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf0413ab256049418d8715800f0e3e7
+      internalID: 1404456309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_176
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2114
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11256b90310ddc2488f71375564038da
+      internalID: -1835209213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_177
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2110
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206856465b3c23f42bcd8122c0bf6e0a
+      internalID: -533307887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_178
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2049
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5b2826bd3ba45418fc48ed04032768
+      internalID: 618609483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_179
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2048
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e199a430eddc1f459bd31e56f87293a
+      internalID: -1645987570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_180
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2051
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06f48b7cfcd1c04d80e11b193887e96
+      internalID: -641236038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_181
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2049
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea92386c4d065ec4ab22f19a1c9780b8
+      internalID: -1759964447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_182
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2048
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f9777b05afc8e4086f061e87fe55b5
+      internalID: -1243471391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_183
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2051
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402e5821e47e26645bbeac388300e366
+      internalID: 29739107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_184
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1984
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c833e7e0ca31d8e40a202478b23a41e7
+      internalID: -319508933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_185
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1984
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e99f2c85b8a2146ab58d9debbba441
+      internalID: 843340501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_186
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1920
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3225f02a45a494b855bcf6a1e6b09d
+      internalID: 621811277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_187
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1920
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffbd74e98b5aeb43b4a8c671788f49c
+      internalID: -1917434955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_188
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1855
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2cdba24cc427e4397f95d59ccbc50c
+      internalID: -2093856304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_189
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1855
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8b42dc00859904ebf63bb1285fe955
+      internalID: -1867274205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_190
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1791
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520757489f544784eb1fedf5b410fde4
+      internalID: 1489200645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_191
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1791
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96028210f8e7bd741a7bd31ae6042544
+      internalID: -185684103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_192
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1727
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f8f975abe5cec4cba9f4d29fee3a0d
+      internalID: -1713561242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_193
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1727
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9eb8bf4cdb24744ac2f2ffc843e6bf
+      internalID: 18226214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_194
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1729
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8d5a1782e82d74983fe320078638ef
+      internalID: -1540216708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_195
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1736
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516b29ad0095ec547b470dd966a538f9
+      internalID: 1052376324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_196
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1732
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225cb557de86a6f4ab6a02abf63af497
+      internalID: 428696050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_197
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1664
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a868a25440da1fb4eacf340a8e0116fc
+      internalID: 1265526152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_198
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1664
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6efa6ce3ab245345bcf3a94f5ee956b
+      internalID: -804072594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_199
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1666
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3608a20238ec16c4593f506e5b74dde7
+      internalID: -186133480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_200
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1666
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151362be949f9c04ca1c4f4b6d2c3a97
+      internalID: 1398453662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_201
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1664
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a608a51f6693254c823265d20b2d214
+      internalID: 1449234235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_202
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1601
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959b2aba2833d0a43a13e3d24038659f
+      internalID: -1286152292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_203
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1601
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930bd53d46b9c0c43ad3e251bf14cce4
+      internalID: 1737181613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_204
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1602
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d6b060934578d42ba5922ef2d2ccb0
+      internalID: -1723494573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_205
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1606
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f483a695d8950aa4fbc6b7ed3be1170e
+      internalID: 63548230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_206
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1602
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5bd065af5ea9a4db92df0e1a7e578b
+      internalID: -929953122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_207
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1536
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e161c400ec51bd64dbb9d5ed28d4c65b
+      internalID: -455307757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_208
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1536
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537f061045a1d364e84d8cb2790ff9cd
+      internalID: 1042694004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_209
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1538
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d00bd286316f643877abc2e5f01668
+      internalID: 311977401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_210
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1538
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aabceec33c94374b91ea23b5c124f7e
+      internalID: -1946536751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_211
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1536
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46cdef7916424948814bcbdc1d70c9e
+      internalID: -1351640599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_212
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1472
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859c7bf96d2f1f64684d317b8a834ef2
+      internalID: -349747016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_213
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1472
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3d76f1e68ffb24d905146023a5f222
+      internalID: 1191495995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_214
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1482
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae0d5e9e7c15284eb548a5dc0b96add
+      internalID: 2024429643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_215
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1408
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d63488b04928054db35f1c09396b181
+      internalID: -782096505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_216
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1408
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3313f275fd707ff4f95919eb5fce619b
+      internalID: -806156482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_217
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1410
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbf79a9f98e28a40bc2229612a006dd
+      internalID: 1129257254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_218
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1344
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1cf6fcf68788347a07d36a43904c60
+      internalID: -638894914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_219
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1344
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459a7dd48fb2eb64cafa4c217d4cd277
+      internalID: -1641351817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_220
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1344
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675004abbdad37b43ab917daa1b4b80a
+      internalID: 642955968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_221
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1282
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151029033ea9972488b60304ef30d90b
+      internalID: 1377143528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_222
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1280
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571c5096565eb2143b669409f79cf51e
+      internalID: -1347883340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_223
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1282
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a7609a7c1ae824aaff6b0df9c8f74d
+      internalID: -1883919568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_224
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1216
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b17c6d16cc3b84b989e3e8ee11b657
+      internalID: 1003378091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_225
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1216
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec13c17f83af4ea4184d88b97852e1b1
+      internalID: -351418612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_226
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1216
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc3082562ef73d4bbe4d027536c281b
+      internalID: 2116376659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_227
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1152
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ceb3e4d130bdaa4ca47153bef22e7d2
+      internalID: 857088692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_228
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1152
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22e7d5ae24e9244d8b2a8b31fa95037
+      internalID: 622775776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_229
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1152
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e7981a4ac943b418b3ab08d41592fc
+      internalID: -426473742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_230
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1088
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf81b5ccc88e2945b5511f65cd4faef
+      internalID: -263959297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_231
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1088
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4ac3083e35e5748a51d93d13589625
+      internalID: -933404210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_232
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1088
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a63e4b5b99b65b4fa3ebf0f7b0af8ee
+      internalID: -720395953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_233
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1023
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e65de61d548ee4e8e59407b98018ff
+      internalID: 1132693181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_234
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1023
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b8f77546bf7184f8422144bb36467e
+      internalID: -1041707492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_235
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1024
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5705ef74c333e0b478a0634d390f47a7
+      internalID: -553970555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_236
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 961
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b93b3003aa4b04caea634115c4d6c9
+      internalID: 1553878775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_237
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 958
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fa55344b868fb41be1711c03702c82
+      internalID: -799454690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_238
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 958
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b7c7e661c45b2419f7b053fff5606b
+      internalID: -1301520929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_239
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 958
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09fb08b1eff4c74ea42e3ad9c623b11
+      internalID: -240678649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_240
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 961
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9f93715847bce48baaa88559116192
+      internalID: 1153769465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_241
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 958
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59350c7709d3bf44bd5a3587845fac0
+      internalID: -139138377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_242
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 958
+        width: 26
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ab6a2c891df0c40a3cb7092b688c8c
+      internalID: -1673105610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_243
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 958
+        width: 29
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe09a3ed40c377447b32d28af7a91a3f
+      internalID: -177676637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_244
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 895
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bdd074d09acc4478136deb67a9edac
+      internalID: -1177770837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_245
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 895
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e103b914a02721a44974b360ed3ba343
+      internalID: -1166307530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_246
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 895
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d938d89addec67479247ea7f9d2f51a
+      internalID: -1066928040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_247
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 899
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b0388774b605e418dea077fe67d0d1
+      internalID: -1953985197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_248
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 895
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d197a108a43ad4997e44dbf5425655
+      internalID: 1460537952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_249
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 895
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b506c7866eaf4749bd819e83dc6cdfe
+      internalID: 800613278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_250
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 895
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38792348affd64648ac35c3a8fc00286
+      internalID: 2058389925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_251
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 897
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98326f351d2b6dd4db8e92a4f738d42b
+      internalID: -942920918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_252
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 829
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0067c8f2efa95f94c928ad9f9f6a32e2
+      internalID: -2026211637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_253
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 829
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c81114bf8b2bd40a50219f1e493e58
+      internalID: -117234388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_254
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 831
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e3f818059f630498bf52469010a60f
+      internalID: -2032906912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_255
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 834
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da588f83a2eaeff4f9dd4317498f2e73
+      internalID: -1921251668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_256
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 829
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d02d8e36e4117c4db6e448f84e2cf56
+      internalID: -102608407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_257
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 829
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d810ddd0a0c0d4346b395c5909f2ff9a
+      internalID: -648484691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_258
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 831
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7790cdc343d5d241bc22ac8c0b3c683
+      internalID: -1141709498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_259
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 834
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb20d3604ae80f249a31cdc35af0da12
+      internalID: -1694788289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_260
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 829
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01037880b60ed6949b46f5aadb9e5ef0
+      internalID: -859800525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_261
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 769
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4801acf3deae6304b8e9157a5de88b86
+      internalID: -767068957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_262
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 767
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1660bf25f11d6f449a47b829e546acff
+      internalID: 1911869145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_263
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 767
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2909fd0758f1f649b3b96d778907120
+      internalID: -173233494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_264
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 770
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f88f960bbbe2394888f2b36f5f27050
+      internalID: 1999194449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_265
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 769
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23d6e0c3fdb1ca4fadd49b6daa2aa8a
+      internalID: 555048465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_266
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 767
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee63283a701c09458049792a7afbb23
+      internalID: 109614687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_267
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 767
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb0bdaff88f05a42bebf762807aba19
+      internalID: -886334748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_268
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 769
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78da6c400159a1241974e6758eb6a196
+      internalID: 912941998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_269
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 705
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d882752e50a76a34fbb205b5e95765b2
+      internalID: 948579385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_270
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 705
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625325a6f81a130488905e70156bb31d
+      internalID: -128240016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_271
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 640
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f07f8196037dc5478cd084ef4d9a36d
+      internalID: -559390321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_272
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 640
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c22597d5172b948b5508ae5aabea43
+      internalID: 237088852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_273
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 575
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11151e8539f72743865b02d571598dc
+      internalID: 629538940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_274
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 575
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a8858badde3bd4db8dcaba61bc901e
+      internalID: -58445550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_275
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 512
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea568df39ad957146a92233a6236e994
+      internalID: -1469141257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_276
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 512
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b505dea78203094db4cc0cd23846e28
+      internalID: 5147285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_277
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 446
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84557b6ee9df6174992a6d3132bb429c
+      internalID: -902887080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_278
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 448
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb4ec0908307db44bb072733367ecc7
+      internalID: 1874286549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_279
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 448
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5f28a5df9b3df4b9fcb44b940e02af
+      internalID: 1203820506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_280
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 448
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9547acc6d88e342b479f8c042efb5b
+      internalID: -1264080253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_281
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 448
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a1d519a3c2d6945a4ce0ed62f25e0a
+      internalID: 1037543409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_282
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 448
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c8e70913c28c84dbebdc0a350e9b5e
+      internalID: -391209640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_283
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 448
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb76c1047688a304bbcd500a15021959
+      internalID: 1096894101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_284
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 448
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a838d184fbe56e245a825f90b2ae70fd
+      internalID: -477299289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_285
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 448
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034b37a42cdb2e948ba221ac732a3748
+      internalID: 2011571005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_286
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 448
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6240c429f955d34fbfd5d390c04651a
+      internalID: 533439276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_287
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 448
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7af8cd2ed2900947bac39ebc6e02d7b
+      internalID: 153296419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_288
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 448
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea27b06b7ef85b428b16be72d1a90a6
+      internalID: 1419738859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_289
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 448
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad003e2ab9ae164a9f8ca9c1debf94f
+      internalID: 974902466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_290
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 384
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae46c2a0d3bab43489b5c8e14e011303
+      internalID: 685580715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_291
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 384
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3e0b88d605ed34db721fc1512c6935
+      internalID: 906999279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_292
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 384
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d85ae8f2a5fe34c9c96412547845b1
+      internalID: 1316850645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_293
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 384
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ad7f6f5f9144a4bae0eefcb0d22781
+      internalID: -685864957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_294
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 384
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15a8c6269156b140999fd11451b6df4
+      internalID: -466037821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_295
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 384
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6d285f94553794282e54d1d6befb04
+      internalID: -628644668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_296
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 384
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6c6447d08223c41bfec086e8759e9a
+      internalID: -187776086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_297
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 384
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91afa6172ebd1a7479c4552147930a6e
+      internalID: 1484384648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_298
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 384
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1f149c6049fee4daed52893e2e1d73
+      internalID: -1804352709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_299
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 384
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6275c04cd231f3a4f9ec3e4f2afccbfb
+      internalID: -1446906566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_300
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 384
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8001de70e28c02d47873ac73ff12b4f4
+      internalID: -1504245494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_301
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 384
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbb3deb59b673d4b89180272f09c4a4
+      internalID: 59987852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_302
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 384
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff81c99b2075454da7099d7feed29f6
+      internalID: 1989683248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_303
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 318
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7f55d5ae832e0448de14a82be4f749
+      internalID: -1568293035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_304
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 318
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994ada3e8e3f63d4e9c85bf927ba8d80
+      internalID: -1765886951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_305
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 318
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9a010fec3f5b14bbec6d90b9fcaa7c
+      internalID: 200560907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_306
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 318
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b96c1b83c91d054f87b00bf891daa32
+      internalID: 1760696646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_307
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 318
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213850ed1fa435047945ceb85735bdda
+      internalID: -1449942051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_308
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 318
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a79d8eea059184ab5dee700c0793c6
+      internalID: 1915855453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_309
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 318
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313c1870f58c83a4489ba00040d57706
+      internalID: 1675623704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_310
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 318
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b960736b07277e3439b0ec1aa98ab51a
+      internalID: -1687930838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_311
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 318
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95864b7a9328954fbbbf6caf55aca67
+      internalID: -1402230777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_312
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 318
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106d7d234a39df3448a173125bd287b8
+      internalID: 1244891880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_313
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 318
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc3bc0fbcf48d24ea0df3a2f0f18417
+      internalID: -104956898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_314
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 318
+        width: 37
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c64e124c594ce4287890b783dfc711
+      internalID: -82358780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_315
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 318
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b2e4fcde5af114ba1c6da1d90b6f45
+      internalID: 1676576319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_316
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 256
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d344d43104e4b40a9bb229b3756526
+      internalID: -1413413306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_317
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124da30a3453df34a84ce12e1bb11f18
+      internalID: 1857056989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_318
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 256
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a6e29f537e4aa45b847e1af5e944a4
+      internalID: -675996601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_319
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 256
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cfa3e4fb599b9448faae756079b2ed
+      internalID: 581809322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_320
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 256
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb38c49662d01e4f8ea80c77728f3f3
+      internalID: 1470445991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_321
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 256
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5cece979600ee49b18b9e5c1c3caa3
+      internalID: 400713121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_322
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 256
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160ecfd2a19f2044a9a882cc05be3547
+      internalID: -1091781619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_323
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 256
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d983f44b4ff23947becad30dcf953a1
+      internalID: -860300637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_324
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 256
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec2c2e1b787d564a87e85a8ae071cc5
+      internalID: -1326451492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_325
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 256
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f8b0eb8c152bc4cb418d7e614b6e63
+      internalID: 63318215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_326
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 256
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5d3cc894d4b554a8e236ef0e15b719
+      internalID: -876265168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_327
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 256
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cdcfb04d13c034f83423c9c6a06ae9
+      internalID: -982271825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_328
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 256
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed540c471a595bd4399ce9c369a98119
+      internalID: 291932446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_329
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 192
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff7b78de48161f46bf25eae58f9b6d1
+      internalID: 412741352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_330
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426a1323388090c4b9f5658a3958b7c8
+      internalID: -1680377821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_331
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 193
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e998a3b74d7f845b3c4481cafb1c04
+      internalID: 1565691676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_332
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 193
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc6032bf7648a844b823aff6c4741bd
+      internalID: 1544847071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_333
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 193
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63064a634ae538241ae448e8077d5184
+      internalID: -677593945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_334
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 192
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f662d97bda482749b2c8e7fdc290597
+      internalID: -166304757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_335
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 127
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6e0e3ac2aa17b408470522702ad7da
+      internalID: -69627513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_336
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 127
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994e7545de4f7074c91ef8181815a557
+      internalID: -743771515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_337
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 127
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785d8a0e496af2e4ca296224ea30ae00
+      internalID: 205113805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_338
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 127
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d3dccd7c1a34e4d96724c2f46d1d39
+      internalID: -1440125783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_339
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 127
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4e69d369d38ed45a65ae910ddfc496
+      internalID: 1025324589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_340
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 127
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09cdc573b9066e4594bd8949cb6dc86
+      internalID: -1948845300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_341
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 63
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d8d2718a3cbcf4494b23bda8c60f1e
+      internalID: -862103619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_342
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 63
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ead74fefcad80e41b39f8e35028ec64
+      internalID: -712865581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_343
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 63
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5700491bcdf02874f88c59cc95a92b7a
+      internalID: -662705321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_344
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 63
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d68a926035266c4b82d40c1efe28725
+      internalID: -1368854876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_345
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 63
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d358ae341cead45983cc45eab0ef54
+      internalID: -1405289845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_346
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 63
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1a5273680d4124695d7c3b85f83dc7
+      internalID: 1730165242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_347
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960220f612b40704380eeadf5bf75885
+      internalID: 1326798478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_348
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5689f9ca1063844a5151ef167b25d6
+      internalID: -1218579121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_349
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cde18c87f3818446acac0f03d34244e
+      internalID: 1383551988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_350
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad72c6dac45fa82479fcfcc3e08743a9
+      internalID: 26907539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_351
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 0
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9551f8c28069c3b47ae1e91a8e183448
+      internalID: -358997282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download1383_352
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 0
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36079f57b9668d14a8ed06338b182a2e
+      internalID: -2101775082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Download1383_0: 204545016
+      Download1383_1: -1560511260
+      Download1383_10: 1892130328
+      Download1383_100: -966258831
+      Download1383_101: 128930256
+      Download1383_102: -1602059261
+      Download1383_103: 69049314
+      Download1383_104: -2107088587
+      Download1383_105: 571050938
+      Download1383_106: 672150435
+      Download1383_107: -1699522611
+      Download1383_108: -1517506139
+      Download1383_109: 531055677
+      Download1383_11: -1135592119
+      Download1383_110: 1882768498
+      Download1383_111: 1458737190
+      Download1383_112: -750572077
+      Download1383_113: 1256609258
+      Download1383_114: -1603562931
+      Download1383_115: 1605520438
+      Download1383_116: -680387921
+      Download1383_117: 1672399778
+      Download1383_118: 1236514119
+      Download1383_119: 1604655908
+      Download1383_12: -608974748
+      Download1383_120: 585916791
+      Download1383_121: -1211163189
+      Download1383_122: -25738331
+      Download1383_123: -354180159
+      Download1383_124: 1930986690
+      Download1383_125: -627747242
+      Download1383_126: 2043762248
+      Download1383_127: 1613693514
+      Download1383_128: -1445532526
+      Download1383_129: 410686172
+      Download1383_13: -1469975755
+      Download1383_130: 200120233
+      Download1383_131: 153447774
+      Download1383_132: -644593136
+      Download1383_133: 917714314
+      Download1383_134: -441959102
+      Download1383_135: 1165742938
+      Download1383_136: -1168556806
+      Download1383_137: 2137083515
+      Download1383_138: 1799834022
+      Download1383_139: 1025769807
+      Download1383_14: -1551989308
+      Download1383_140: -1066974856
+      Download1383_141: 361794136
+      Download1383_142: -771592676
+      Download1383_143: -1863253421
+      Download1383_144: -230925795
+      Download1383_145: 724879094
+      Download1383_146: 1442891585
+      Download1383_147: 502639433
+      Download1383_148: -1395185068
+      Download1383_149: 20301410
+      Download1383_15: -1205862529
+      Download1383_150: -618050732
+      Download1383_151: -635295835
+      Download1383_152: -810507764
+      Download1383_153: -1665029645
+      Download1383_154: 1277894162
+      Download1383_155: -331917465
+      Download1383_156: 775885134
+      Download1383_157: 1309954577
+      Download1383_158: 978572687
+      Download1383_159: 1096035160
+      Download1383_16: -1392328285
+      Download1383_160: -1092093072
+      Download1383_161: -907384539
+      Download1383_162: 1547298249
+      Download1383_163: 364349538
+      Download1383_164: -1530699065
+      Download1383_165: -631858295
+      Download1383_166: -476540999
+      Download1383_167: -1782716045
+      Download1383_168: -466411197
+      Download1383_169: 1606250229
+      Download1383_17: -28599075
+      Download1383_170: -1692963917
+      Download1383_171: 233903297
+      Download1383_172: -32319293
+      Download1383_173: 126127796
+      Download1383_174: -2049840710
+      Download1383_175: 1404456309
+      Download1383_176: -1835209213
+      Download1383_177: -533307887
+      Download1383_178: 618609483
+      Download1383_179: -1645987570
+      Download1383_18: -1140976331
+      Download1383_180: -641236038
+      Download1383_181: -1759964447
+      Download1383_182: -1243471391
+      Download1383_183: 29739107
+      Download1383_184: -319508933
+      Download1383_185: 843340501
+      Download1383_186: 621811277
+      Download1383_187: -1917434955
+      Download1383_188: -2093856304
+      Download1383_189: -1867274205
+      Download1383_19: 1742619581
+      Download1383_190: 1489200645
+      Download1383_191: -185684103
+      Download1383_192: -1713561242
+      Download1383_193: 18226214
+      Download1383_194: -1540216708
+      Download1383_195: 1052376324
+      Download1383_196: 428696050
+      Download1383_197: 1265526152
+      Download1383_198: -804072594
+      Download1383_199: -186133480
+      Download1383_2: -491558801
+      Download1383_20: 1482699343
+      Download1383_200: 1398453662
+      Download1383_201: 1449234235
+      Download1383_202: -1286152292
+      Download1383_203: 1737181613
+      Download1383_204: -1723494573
+      Download1383_205: 63548230
+      Download1383_206: -929953122
+      Download1383_207: -455307757
+      Download1383_208: 1042694004
+      Download1383_209: 311977401
+      Download1383_21: 424503835
+      Download1383_210: -1946536751
+      Download1383_211: -1351640599
+      Download1383_212: -349747016
+      Download1383_213: 1191495995
+      Download1383_214: 2024429643
+      Download1383_215: -782096505
+      Download1383_216: -806156482
+      Download1383_217: 1129257254
+      Download1383_218: -638894914
+      Download1383_219: -1641351817
+      Download1383_22: 1134543614
+      Download1383_220: 642955968
+      Download1383_221: 1377143528
+      Download1383_222: -1347883340
+      Download1383_223: -1883919568
+      Download1383_224: 1003378091
+      Download1383_225: -351418612
+      Download1383_226: 2116376659
+      Download1383_227: 857088692
+      Download1383_228: 622775776
+      Download1383_229: -426473742
+      Download1383_23: -1169006382
+      Download1383_230: -263959297
+      Download1383_231: -933404210
+      Download1383_232: -720395953
+      Download1383_233: 1132693181
+      Download1383_234: -1041707492
+      Download1383_235: -553970555
+      Download1383_236: 1553878775
+      Download1383_237: -799454690
+      Download1383_238: -1301520929
+      Download1383_239: -240678649
+      Download1383_24: 745616026
+      Download1383_240: 1153769465
+      Download1383_241: -139138377
+      Download1383_242: -1673105610
+      Download1383_243: -177676637
+      Download1383_244: -1177770837
+      Download1383_245: -1166307530
+      Download1383_246: -1066928040
+      Download1383_247: -1953985197
+      Download1383_248: 1460537952
+      Download1383_249: 800613278
+      Download1383_25: -1259950517
+      Download1383_250: 2058389925
+      Download1383_251: -942920918
+      Download1383_252: -2026211637
+      Download1383_253: -117234388
+      Download1383_254: -2032906912
+      Download1383_255: -1921251668
+      Download1383_256: -102608407
+      Download1383_257: -648484691
+      Download1383_258: -1141709498
+      Download1383_259: -1694788289
+      Download1383_26: 1071234152
+      Download1383_260: -859800525
+      Download1383_261: -767068957
+      Download1383_262: 1911869145
+      Download1383_263: -173233494
+      Download1383_264: 1999194449
+      Download1383_265: 555048465
+      Download1383_266: 109614687
+      Download1383_267: -886334748
+      Download1383_268: 912941998
+      Download1383_269: 948579385
+      Download1383_27: 2031361107
+      Download1383_270: -128240016
+      Download1383_271: -559390321
+      Download1383_272: 237088852
+      Download1383_273: 629538940
+      Download1383_274: -58445550
+      Download1383_275: -1469141257
+      Download1383_276: 5147285
+      Download1383_277: -902887080
+      Download1383_278: 1874286549
+      Download1383_279: 1203820506
+      Download1383_28: 29030338
+      Download1383_280: -1264080253
+      Download1383_281: 1037543409
+      Download1383_282: -391209640
+      Download1383_283: 1096894101
+      Download1383_284: -477299289
+      Download1383_285: 2011571005
+      Download1383_286: 533439276
+      Download1383_287: 153296419
+      Download1383_288: 1419738859
+      Download1383_289: 974902466
+      Download1383_29: 1156410588
+      Download1383_290: 685580715
+      Download1383_291: 906999279
+      Download1383_292: 1316850645
+      Download1383_293: -685864957
+      Download1383_294: -466037821
+      Download1383_295: -628644668
+      Download1383_296: -187776086
+      Download1383_297: 1484384648
+      Download1383_298: -1804352709
+      Download1383_299: -1446906566
+      Download1383_3: -373068298
+      Download1383_30: 1495918319
+      Download1383_300: -1504245494
+      Download1383_301: 59987852
+      Download1383_302: 1989683248
+      Download1383_303: -1568293035
+      Download1383_304: -1765886951
+      Download1383_305: 200560907
+      Download1383_306: 1760696646
+      Download1383_307: -1449942051
+      Download1383_308: 1915855453
+      Download1383_309: 1675623704
+      Download1383_31: -232971630
+      Download1383_310: -1687930838
+      Download1383_311: -1402230777
+      Download1383_312: 1244891880
+      Download1383_313: -104956898
+      Download1383_314: -82358780
+      Download1383_315: 1676576319
+      Download1383_316: -1413413306
+      Download1383_317: 1857056989
+      Download1383_318: -675996601
+      Download1383_319: 581809322
+      Download1383_32: 1331515327
+      Download1383_320: 1470445991
+      Download1383_321: 400713121
+      Download1383_322: -1091781619
+      Download1383_323: -860300637
+      Download1383_324: -1326451492
+      Download1383_325: 63318215
+      Download1383_326: -876265168
+      Download1383_327: -982271825
+      Download1383_328: 291932446
+      Download1383_329: 412741352
+      Download1383_33: 201545618
+      Download1383_330: -1680377821
+      Download1383_331: 1565691676
+      Download1383_332: 1544847071
+      Download1383_333: -677593945
+      Download1383_334: -166304757
+      Download1383_335: -69627513
+      Download1383_336: -743771515
+      Download1383_337: 205113805
+      Download1383_338: -1440125783
+      Download1383_339: 1025324589
+      Download1383_34: -114496782
+      Download1383_340: -1948845300
+      Download1383_341: -862103619
+      Download1383_342: -712865581
+      Download1383_343: -662705321
+      Download1383_344: -1368854876
+      Download1383_345: -1405289845
+      Download1383_346: 1730165242
+      Download1383_347: 1326798478
+      Download1383_348: -1218579121
+      Download1383_349: 1383551988
+      Download1383_35: -1841350016
+      Download1383_350: 26907539
+      Download1383_351: -358997282
+      Download1383_352: -2101775082
+      Download1383_36: -788293125
+      Download1383_37: 202275053
+      Download1383_38: 917600527
+      Download1383_39: -802094014
+      Download1383_4: -242743585
+      Download1383_40: 2045396777
+      Download1383_41: 454161487
+      Download1383_42: -1297024315
+      Download1383_43: 1005746135
+      Download1383_44: 1088274132
+      Download1383_45: 1182406092
+      Download1383_46: -1803986092
+      Download1383_47: 869026947
+      Download1383_48: 1014797150
+      Download1383_49: -668175226
+      Download1383_5: 1780567125
+      Download1383_50: 95364987
+      Download1383_51: -952643086
+      Download1383_52: -792467232
+      Download1383_53: -1724739888
+      Download1383_54: 1315083013
+      Download1383_55: -132159527
+      Download1383_56: 287632869
+      Download1383_57: 578500915
+      Download1383_58: -883451346
+      Download1383_59: -1981497875
+      Download1383_6: -743716711
+      Download1383_60: 1369472777
+      Download1383_61: -1801718954
+      Download1383_62: 1109420456
+      Download1383_63: 1656807715
+      Download1383_64: -734990211
+      Download1383_65: 870569402
+      Download1383_66: 1122310850
+      Download1383_67: -317849627
+      Download1383_68: 277888234
+      Download1383_69: 1015154786
+      Download1383_7: -1491302343
+      Download1383_70: -867659928
+      Download1383_71: 1519949507
+      Download1383_72: -1135229124
+      Download1383_73: -2072315133
+      Download1383_74: 462033336
+      Download1383_75: 666246930
+      Download1383_76: -2094506530
+      Download1383_77: 769214191
+      Download1383_78: 282013159
+      Download1383_79: -1513031358
+      Download1383_8: -58226374
+      Download1383_80: -172902509
+      Download1383_81: 1968110
+      Download1383_82: 570102983
+      Download1383_83: 982105607
+      Download1383_84: -1700795774
+      Download1383_85: -1907078957
+      Download1383_86: 1870176624
+      Download1383_87: 856772458
+      Download1383_88: -866452145
+      Download1383_89: 175707425
+      Download1383_9: 944061819
+      Download1383_90: 130978969
+      Download1383_91: 165090459
+      Download1383_92: 372372460
+      Download1383_93: -549538427
+      Download1383_94: -1719564209
+      Download1383_95: -1205909840
+      Download1383_96: 731988927
+      Download1383_97: -943584521
+      Download1383_98: -2113195309
+      Download1383_99: 1028361618
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
