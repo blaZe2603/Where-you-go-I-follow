@@ -2,9 +2,8 @@ using UnityEngine;
 
 public class movableblocks : MonoBehaviour
 {
-    public float pushDistance = 1f;
     public float pushSpeed = 5f;
-    public LayerMask obstacleMask;
+    public float moveStep = 1f;
 
     private Rigidbody2D rb;
     private Vector2 targetPosition;
@@ -20,33 +19,32 @@ public class movableblocks : MonoBehaviour
     {
         if (isMoving)
         {
-            rb.MovePosition(Vector2.MoveTowards(rb.position, targetPosition, pushSpeed * Time.fixedDeltaTime));
+            Vector2 newPos = Vector2.MoveTowards(rb.position, targetPosition, pushSpeed * Time.fixedDeltaTime);
+            rb.MovePosition(newPos);
 
             if (Vector2.Distance(rb.position, targetPosition) < 0.01f)
             {
-                rb.position = targetPosition; // Snap
-                isMoving = false;
+                rb.position = targetPosition;
                 rb.velocity = Vector2.zero;
+                isMoving = false;
             }
         }
     }
 
-    public void Push(Vector2 direction)
+    public bool Push(Vector2 direction)
     {
-        if (isMoving)
-            return;
+        if (isMoving) return false;
 
-        Vector2 nextPos = rb.position + direction * pushDistance;
-
-        // Raycast to check if the target position is blocked
-        RaycastHit2D hit = Physics2D.Raycast(rb.position, direction, pushDistance, obstacleMask);
-        if (hit.collider != null)
-        {
-            Debug.Log("Blocked by: " + hit.collider.name);
-            return; // Don't move if there's an obstacle
-        }
-
-        targetPosition = nextPos;
+        Vector2 destination = rb.position + direction * moveStep;
+        targetPosition = destination;
         isMoving = true;
+        return true;
+    }
+
+    public bool CanBePushed(Vector2 direction, LayerMask obstacleMask)
+    {
+        Vector2 checkPos = rb.position + direction * moveStep;
+        Collider2D hit = Physics2D.OverlapBox(checkPos, new Vector2(0.8f, 0.8f), 0f, obstacleMask);
+        return hit == null;
     }
 }

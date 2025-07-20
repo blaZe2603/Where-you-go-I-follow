@@ -10,10 +10,14 @@ public class player2 : MonoBehaviour
     public Transform epw2;
     public TextMeshProUGUI dist;
     public LayerMask pushableLayer;
+    public LayerMask obstacleMask;
+    public float walk = 5f;
+    public float moveStep = 1f;
 
     private Rigidbody2D rb;
-    private player player;
     private Vector2 moveDir;
+    private Vector2 targetPosition;
+    private player player;
     private bool isMoving = false;
     private bool gamedone = false;
 
@@ -24,21 +28,48 @@ public class player2 : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.Find("Player").GetComponent<player>();
+        targetPosition = rb.position;
     }
 
     void FixedUpdate()
     {
-        dist.text = "x : " + ((int)(epw2.position.x - transform.position.x)) +
-                    " y : " + ((int)(epw2.position.y - transform.position.y + 0.5f));
+        dist.text = $"x : {(int)(epw2.position.x - transform.position.x)} y : {(int)(epw2.position.y - transform.position.y + 0.5f)}";
 
         if (!isMoving && player.p2move && player.movesave.Count > 0)
         {
-            StartCoroutine(HandleMovement());
+            float moveVal = player.movesave.Dequeue();
+            moveDir = Mathf.Abs(moveVal) == 1 ? new Vector2(moveVal, 0) : new Vector2(0, moveVal / 2);
+
+            if (CanMove(moveDir))
+            {
+                TryPush(moveDir);
+                targetPosition = rb.position + moveDir * moveStep;
+                isMoving = true;
+
+                animator.SetFloat("horizontal", moveDir.x);
+                animator.SetFloat("vertical", moveDir.y);
+                animator.SetFloat("speed", moveDir.sqrMagnitude);
+            }
+
+            player.p2move = false; // Wait until player sets it again
+        }
+
+        if (isMoving)
+        {
+            Vector2 newPos = Vector2.MoveTowards(rb.position, targetPosition, walk * Time.fixedDeltaTime);
+            rb.MovePosition(newPos);
+
+            if (Vector2.Distance(rb.position, targetPosition) < 0.01f)
+            {
+                rb.position = targetPosition;
+                isMoving = false;
+                moveDir = Vector2.zero;
+            }
         }
 
         if (player.movesave.Count == 0 && !isMoving && !win)
         {
-            StartCoroutine(wait());
+            StartCoroutine(WaitAndLose());
         }
 
         if (gamedone && !win)
@@ -48,59 +79,40 @@ public class player2 : MonoBehaviour
         }
     }
 
-    IEnumerator HandleMovement()
+    bool CanMove(Vector2 direction)
     {
-        isMoving = true;
+        Vector2 checkPos = rb.position + direction * moveStep;
 
-        while (player.movesave.Count > 0)
+        // Check for obstacle at destination
+        Collider2D obstacle = Physics2D.OverlapBox(checkPos, new Vector2(0.8f, 0.8f), 0f, obstacleMask);
+        if (obstacle != null)
+            return false;
+
+        // If there's a pushable, check if it can move
+        RaycastHit2D hit = Physics2D.Raycast(rb.position, direction, detectDistance, pushableLayer);
+        if (hit.collider != null)
         {
-            float moveVal = player.movesave.Dequeue();
-            if (Mathf.Abs(moveVal) == 1f)
-                moveDir = new Vector2(moveVal, 0);
-            else if (Mathf.Abs(moveVal) == 2f)
-                moveDir = new Vector2(0, moveVal / 2);
-
-            animator.SetFloat("horizontal", moveDir.x);
-            animator.SetFloat("vertical", moveDir.y);
-            animator.SetFloat("speed", moveDir.sqrMagnitude);
-
-            Vector2 start = rb.position;
-            Vector2 target = start + moveDir;
-
-            // Try push before moving
-            TryPush(moveDir);
-
-            while (Vector2.Distance(rb.position, target) > 0.01f)
-            {
-                Vector2 newPos = Vector2.MoveTowards(rb.position, target, player.walk * Time.fixedDeltaTime);
-                rb.MovePosition(newPos);
-                yield return new WaitForFixedUpdate();
-            }
-
-            rb.position = target;
-            rb.velocity = Vector2.zero;
-
-            yield return new WaitForSeconds(0.3f); // brief pause after each move
+            movableblocks block = hit.collider.GetComponent<movableblocks>();
+            return block != null && block.CanBePushed(direction, obstacleMask);
         }
 
-        isMoving = false;
-    }
-
-    IEnumerator wait()
-    {
-        yield return new WaitForSeconds(0.5f);
-        gamedone = true;
+        return true;
     }
 
     void TryPush(Vector2 direction)
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, detectDistance, pushableLayer);
+        RaycastHit2D hit = Physics2D.Raycast(rb.position, direction, detectDistance, pushableLayer);
         if (hit.collider != null)
         {
-            movableblocks pushable = hit.collider.GetComponent<movableblocks>();
-            if (pushable != null)
-                pushable.Push(direction);
+            movableblocks block = hit.collider.GetComponent<movableblocks>();
+            block?.Push(direction);
         }
+    }
+
+    IEnumerator WaitAndLose()
+    {
+        yield return new WaitForSeconds(0.5f);
+        gamedone = true;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

@@ -9,42 +9,42 @@ public class player : MonoBehaviour
     public Animator animator;
     public GameManager gameManager;
     public GameObject targetObject;
-    public float walk;
-    public bool movepossibility = true;
-    public Queue<float> movesave = new Queue<float>();
-    public bool p2move = false;
+    public float walk = 5f;
     public Transform epw1;
     public TextMeshProUGUI dist;
     public LayerMask obstacleMask;
     public LayerMask pushableLayer;
     public float moveStep = 1f;
 
+    public bool movepossibility = true;
+    public Queue<float> movesave = new Queue<float>();
+    public bool p2move = false;
+
     private Rigidbody2D rb;
     private Vector2 input;
-    private bool isMoving = false;
     private Vector2 targetPosition;
+    private bool isMoving = false;
+    private player2 p_2;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        movesave.Enqueue(0);
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        p_2 = targetObject.GetComponent<player2>();
         targetPosition = rb.position;
+        movesave.Enqueue(0); // dummy value
     }
 
     void FixedUpdate()
     {
-        dist.text = "x : " + ((int)(epw1.transform.position.x - transform.position.x)) + 
-                    " y : " + ((int)(epw1.transform.position.y - transform.position.y + 0.5f));
+        dist.text = $"x : {(int)(epw1.position.x - transform.position.x)} y : {(int)(epw1.position.y - transform.position.y + 0.5f)}";
 
         if (!isMoving && movepossibility)
         {
             input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+            if (Mathf.Abs(input.x) > 0) input.y = 0; // No diagonal movement
 
-            if (Mathf.Abs(input.x) > 0 && input.y == 0)
-                StartCoroutine(AttemptMove(new Vector2(input.x, 0), input.x, 1f));
-            else if (Mathf.Abs(input.y) > 0 && input.x == 0)
-                StartCoroutine(AttemptMove(new Vector2(0, input.y), input.y, 2f));
+            if (input != Vector2.zero)
+                StartCoroutine(AttemptMove(input));
         }
 
         if (isMoving)
@@ -68,38 +68,53 @@ public class player : MonoBehaviour
             gameManager.gameover();
     }
 
-    IEnumerator AttemptMove(Vector2 direction, float moveValue, float value)
+    IEnumerator AttemptMove(Vector2 direction)
     {
         movepossibility = false;
 
-        if (TryPush(direction) || CanMove(direction))
+        if (!CanMove(direction))
         {
-            movesave.Enqueue(moveValue * value);
-            targetPosition = rb.position + direction * moveStep;
-            isMoving = true;
+            movepossibility = true;
+            yield break;
         }
+
+        TryPush(direction);
+
+        float moveVal = direction.x != 0 ? direction.x : direction.y * 2;
+        movesave.Enqueue(moveVal);
+        targetPosition = rb.position + direction * moveStep;
+        isMoving = true;
 
         yield return new WaitForSeconds(0.3f);
         movepossibility = true;
     }
 
-    bool TryPush(Vector2 direction)
-    {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, detectDistance, pushableLayer);
-        if (hit.collider != null)
-        {
-            movableblocks pushable = hit.collider.GetComponent<movableblocks>();
-            if (pushable != null)
-                return pushable.Push(direction);
-        }
-        return false;
-    }
-
     bool CanMove(Vector2 direction)
     {
-        Vector2 targetPos = rb.position + direction;
-        Collider2D obstacleHit = Physics2D.OverlapBox(targetPos, Vector2.one * 0.8f, 0f, obstacleMask);
-        return obstacleHit == null;
+        Vector2 boxSize = new Vector2(0.8f, 0.8f);
+        Vector2 checkPos = rb.position + direction * moveStep;
+
+        // If pushable is present, check if it can be pushed
+        RaycastHit2D hit = Physics2D.Raycast(rb.position, direction, detectDistance, pushableLayer);
+        if (hit.collider != null)
+        {
+            movableblocks block = hit.collider.GetComponent<movableblocks>();
+            if (block != null)
+                return block.CanBePushed(direction, obstacleMask);
+        }
+
+        Collider2D obstacle = Physics2D.OverlapBox(checkPos, boxSize, 0f, obstacleMask);
+        return obstacle == null;
+    }
+
+    void TryPush(Vector2 direction)
+    {
+        RaycastHit2D hit = Physics2D.Raycast(rb.position, direction, detectDistance, pushableLayer);
+        if (hit.collider != null)
+        {
+            movableblocks block = hit.collider.GetComponent<movableblocks>();
+            block?.Push(direction);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -113,7 +128,7 @@ public class player : MonoBehaviour
         if (collision.gameObject.CompareTag("spike"))
         {
             Destroy(gameObject);
-            targetObject.GetComponent<player2>().lose = true;
+            p_2.lose = true;
         }
     }
 }

@@ -265,6 +265,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveStep: 1
   pushSpeed: 5
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -544,6 +547,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 1, y: 11, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 1
+      m_TileSpriteIndex: 1
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -14, y: 12, z: 0}
     second:
       serializedVersion: 2
@@ -588,15 +601,15 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 3bec403813fb2a74dae2ef9d1e8a16f5, type: 2}
-  - m_RefCount: 8
+  - m_RefCount: 9
     m_Data: {fileID: 11400000, guid: 232317a27c011d5498fbc68d0925361a, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: 505256255, guid: 5667c27ac02dd014387d7d51075ecbfa, type: 3}
-  - m_RefCount: 8
+  - m_RefCount: 9
     m_Data: {fileID: 594235283, guid: 5667c27ac02dd014387d7d51075ecbfa, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 9
+  - m_RefCount: 10
     m_Data:
       e00: 1
       e01: 0
@@ -615,13 +628,13 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 9
+  - m_RefCount: 10
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -14, y: 0, z: 0}
-  m_Size: {x: 14, y: 15, z: 1}
+  m_Size: {x: 16, y: 15, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -696,6 +709,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveStep: 1
   pushSpeed: 5
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1001 &1796193560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -707,6 +723,10 @@ PrefabInstance:
     - target: {fileID: 1130745585890667358, guid: bca7dc4de9afe2a4db11e9f3191ebbde, type: 3}
       propertyPath: m_Mass
       value: 0.0001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1130745585890667358, guid: bca7dc4de9afe2a4db11e9f3191ebbde, type: 3}
+      propertyPath: m_BodyType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1130745585890667358, guid: bca7dc4de9afe2a4db11e9f3191ebbde, type: 3}
       propertyPath: m_Interpolate
@@ -771,6 +791,10 @@ PrefabInstance:
     - target: {fileID: 1265392186961695693, guid: bca7dc4de9afe2a4db11e9f3191ebbde, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2351894473210407305, guid: bca7dc4de9afe2a4db11e9f3191ebbde, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2351894473210407305, guid: bca7dc4de9afe2a4db11e9f3191ebbde, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.y
@@ -911,6 +935,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 431894560044389398, guid: 7cfa43324e3d8cf4fb4718eb6ca38658, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 431894560044389398, guid: 7cfa43324e3d8cf4fb4718eb6ca38658, type: 3}
       propertyPath: m_Interpolate
       value: 1
       objectReference: {fileID: 0}
@@ -963,12 +991,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 519420031}
     - target: {fileID: 4735339221510292481, guid: 7cfa43324e3d8cf4fb4718eb6ca38658, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4735339221510292481, guid: 7cfa43324e3d8cf4fb4718eb6ca38658, type: 3}
       propertyPath: m_Interpolate
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6846901583979170544, guid: 7cfa43324e3d8cf4fb4718eb6ca38658, type: 3}
       propertyPath: pushableLayer.m_Bits
       value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 6973227874875662430, guid: 7cfa43324e3d8cf4fb4718eb6ca38658, type: 3}
+      propertyPath: obstacleMask.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 6973227874875662430, guid: 7cfa43324e3d8cf4fb4718eb6ca38658, type: 3}
       propertyPath: pushableLayer.m_Bits
