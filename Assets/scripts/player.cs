@@ -129,6 +129,7 @@ public class player : MonoBehaviour
         {
             Destroy(gameObject);
             p_2.lose = true;
+            Debug.Log("a");
         }
     }
 }
