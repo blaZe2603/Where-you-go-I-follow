@@ -8,7 +8,7 @@ public class player2 : MonoBehaviour
     public float detectDistance = 1f;
     public Animator animator;
     public Transform epw2;
-    public TextMeshProUGUI dist;
+    [SerializeField] TextMeshProUGUI dist;
     public LayerMask pushableLayer;
     public LayerMask obstacleMask;
     public float walk = 5f;
@@ -33,6 +33,8 @@ public class player2 : MonoBehaviour
 
     void FixedUpdate()
     {
+        dist.text = $"x : {(int)(epw2.position.x - targetPosition.x)} y : {(int)(epw2.position.y -targetPosition.y + 0.5f)}";
+
         if (!isMoving && player.p2move && player.movesave.Count > 0)
         {
             float moveVal = player.movesave.Dequeue();

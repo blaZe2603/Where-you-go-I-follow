@@ -36,7 +36,7 @@ public class player : MonoBehaviour
 
     void FixedUpdate()
     {
-        dist.text = $"x : {(int)(epw1.position.x - transform.position.x)} y : {(int)(epw1.position.y - transform.position.y + 0.5f)}";
+        dist.text = $"x : {(int)(epw1.position.x - targetPosition.x)} y : {(int)(epw1.position.y - targetPosition.y + 0.5f)}";
 
         if (!isMoving && movepossibility)
         {
