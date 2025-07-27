@@ -17,7 +17,7 @@ public class player2 : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveDir;
     private Vector2 targetPosition;
-    private player player;
+    public player player; 
     private bool isMoving = false;
     private bool gamedone = false;
 
@@ -31,43 +31,48 @@ public class player2 : MonoBehaviour
         targetPosition = rb.position;
     }
 
-    void FixedUpdate()
+    void Update()
     {
         dist.text = $"x : {(int)(epw2.position.x - transform.position.x)} y : {(int)(epw2.position.y - transform.position.y + 0.5f)}";
 
         if (!isMoving && player.p2move && player.movesave.Count > 0)
         {
             float moveVal = player.movesave.Dequeue();
+            Debug.Log(moveVal);
             moveDir = Mathf.Abs(moveVal) == 1 ? new Vector2(moveVal, 0) : new Vector2(0, moveVal / 2);
 
             if (CanMove(moveDir))
             {
+                // Debug.Log("canmove");
                 TryPush(moveDir);
                 targetPosition = rb.position + moveDir * moveStep;
                 isMoving = true;
-
+                // Debug.Log(moveDir);
                 animator.SetFloat("horizontal", moveDir.x);
                 animator.SetFloat("vertical", moveDir.y);
                 animator.SetFloat("speed", moveDir.sqrMagnitude);
             }
 
-            player.p2move = false; // Wait until player sets it again
+            // Important: don't reset p2move immediately here
+            // We'll wait until Player2 finishes the move
         }
 
         if (isMoving)
         {
-            Vector2 newPos = Vector2.MoveTowards(rb.position, targetPosition, walk * Time.fixedDeltaTime);
+            // Debug.Log("ismoving");
+            Vector2 newPos = Vector2.MoveTowards(rb.position, targetPosition, walk * Time.deltaTime);
             rb.MovePosition(newPos);
-
+            
             if (Vector2.Distance(rb.position, targetPosition) < 0.01f)
             {
                 rb.position = targetPosition;
                 isMoving = false;
                 moveDir = Vector2.zero;
+
             }
         }
 
-        if (player.movesave.Count == 0 && !isMoving && !win)
+        if (player.movesave.Count == 0 && !isMoving && !win && player.p2move)
         {
             StartCoroutine(WaitAndLose());
         }
@@ -78,6 +83,7 @@ public class player2 : MonoBehaviour
             lose = true;
         }
     }
+
 
     bool CanMove(Vector2 direction)
     {
