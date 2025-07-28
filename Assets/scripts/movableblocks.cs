@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class movableblocks : MonoBehaviour
@@ -46,5 +47,13 @@ public class movableblocks : MonoBehaviour
         Vector2 checkPos = rb.position + direction * moveStep;
         Collider2D hit = Physics2D.OverlapBox(checkPos, new Vector2(0.8f, 0.8f), 0f, obstacleMask);
         return hit == null;
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("spike"))
+        {
+            GetComponent<BoxCollider2D>().enabled = false;
+            Destroy(collision.gameObject);
+        }
     }
 }

@@ -5,20 +5,21 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
-    public float detectDistance = 1f;
-    public Animator animator;
+    float detectDistance = 1f;
+    [SerializeField] Animator animator;
     public GameManager gameManager;
-    public GameObject targetObject;
+    // public GameObject targetObject;
     public float walk = 5f;
-    public Transform epw1;
-    public TextMeshProUGUI dist;
-    public LayerMask obstacleMask;
-    public LayerMask pushableLayer;
+    [SerializeField] Transform epw1;
+    [SerializeField] TextMeshProUGUI dist;
+    [SerializeField] LayerMask obstacleMask;
+    [SerializeField] LayerMask pushableLayer;
     public float moveStep = 1f;
 
     public bool movepossibility = true;
     public Queue<float> movesave = new Queue<float>();
     public bool p2move = false;
+
 
     private Rigidbody2D rb;
     private Vector2 input;
@@ -29,14 +30,13 @@ public class player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        p_2 = targetObject.GetComponent<player2>();
+        // p_2 = targetObject.GetComponent<player2>();
         targetPosition = rb.position;
-        movesave.Enqueue(0); // dummy value
     }
 
     void FixedUpdate()
     {
-        dist.text = $"x : {(int)(epw1.position.x - transform.position.x)} y : {(int)(epw1.position.y - transform.position.y + 0.5f)}";
+        dist.text = $"x : {(int)(epw1.position.x - targetPosition.x)} y : {(int)(epw1.position.y - targetPosition.y + 0.5f)}";
 
         if (!isMoving && movepossibility)
         {
@@ -82,6 +82,7 @@ public class player : MonoBehaviour
 
         float moveVal = direction.x != 0 ? direction.x : direction.y * 2;
         movesave.Enqueue(moveVal);
+        
         targetPosition = rb.position + direction * moveStep;
         isMoving = true;
 
@@ -129,7 +130,6 @@ public class player : MonoBehaviour
         {
             Destroy(gameObject);
             p_2.lose = true;
-            Debug.Log("a");
         }
     }
 }

@@ -8,7 +8,7 @@ public class player2 : MonoBehaviour
     public float detectDistance = 1f;
     public Animator animator;
     public Transform epw2;
-    public TextMeshProUGUI dist;
+    [SerializeField] TextMeshProUGUI dist;
     public LayerMask pushableLayer;
     public LayerMask obstacleMask;
     public float walk = 5f;
@@ -17,7 +17,7 @@ public class player2 : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveDir;
     private Vector2 targetPosition;
-    private player player;
+    public player player; 
     private bool isMoving = false;
     private bool gamedone = false;
 
@@ -33,7 +33,7 @@ public class player2 : MonoBehaviour
 
     void FixedUpdate()
     {
-        dist.text = $"x : {(int)(epw2.position.x - transform.position.x)} y : {(int)(epw2.position.y - transform.position.y + 0.5f)}";
+        dist.text = $"x : {(int)(epw2.position.x - targetPosition.x)} y : {(int)(epw2.position.y -targetPosition.y + 0.5f)}";
 
         if (!isMoving && player.p2move && player.movesave.Count > 0)
         {
@@ -45,13 +45,10 @@ public class player2 : MonoBehaviour
                 TryPush(moveDir);
                 targetPosition = rb.position + moveDir * moveStep;
                 isMoving = true;
-
                 animator.SetFloat("horizontal", moveDir.x);
                 animator.SetFloat("vertical", moveDir.y);
                 animator.SetFloat("speed", moveDir.sqrMagnitude);
             }
-
-            player.p2move = false; // Wait until player sets it again
         }
 
         if (isMoving)
@@ -67,17 +64,17 @@ public class player2 : MonoBehaviour
             }
         }
 
-        if (player.movesave.Count == 0 && !isMoving && !win)
+        if (player.movesave.Count == 0 && !isMoving && !win && player.p2move)
         {
             StartCoroutine(WaitAndLose());
         }
 
         if (gamedone && !win)
         {
-            Debug.Log("U lose");
             lose = true;
         }
     }
+
 
     bool CanMove(Vector2 direction)
     {
