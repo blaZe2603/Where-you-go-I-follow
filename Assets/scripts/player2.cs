@@ -39,7 +39,8 @@ public class player2 : MonoBehaviour
         {
             float moveVal = player.movesave.Dequeue();
             moveDir = Mathf.Abs(moveVal) == 1 ? new Vector2(moveVal, 0) : new Vector2(0, moveVal / 2);
-
+            // Debug.Log(moveDir);
+            StartCoroutine(Wait());
             if (CanMove(moveDir))
             {
                 TryPush(moveDir);
@@ -48,6 +49,10 @@ public class player2 : MonoBehaviour
                 animator.SetFloat("horizontal", moveDir.x);
                 animator.SetFloat("vertical", moveDir.y);
                 animator.SetFloat("speed", moveDir.sqrMagnitude);
+            }
+            else
+            {
+                StartCoroutine(Wait());
             }
         }
 
@@ -111,7 +116,10 @@ public class player2 : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         gamedone = true;
     }
-
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(1f);
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("endw2"))

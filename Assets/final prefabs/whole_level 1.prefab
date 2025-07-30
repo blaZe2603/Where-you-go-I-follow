@@ -4986,8 +4986,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 975339421062651934}
         m_TargetAssemblyTypeName: inlevelmenu, Assembly-CSharp
-        m_MethodName: OpenLevel
-        m_Mode: 3
+        m_MethodName: restart
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -13705,7 +13705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button_count: 0
-  required_count: 1
+  required_count: 0
 --- !u!1 &7094784943539929524
 GameObject:
   m_ObjectHideFlags: 0
