@@ -15,4 +15,8 @@ public class Levelmenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(0);
     }
+        public void StopGame()
+    {
+        Application.Quit();
+    }
 }

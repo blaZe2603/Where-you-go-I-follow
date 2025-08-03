@@ -129,11 +129,10 @@ public class player2 : MonoBehaviour
             gameObject.SetActive(false);
             win = true;
         }
-        else if (collision.gameObject.CompareTag("spike"))
+        if (collision.gameObject.CompareTag("spike"))
         {
-            Debug.Log("U lose");
-            gameObject.SetActive(false);
             lose = true;
+            Destroy(gameObject); 
         }
     }
 }

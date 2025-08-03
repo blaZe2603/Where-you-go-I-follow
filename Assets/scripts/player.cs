@@ -30,7 +30,7 @@ public class player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        // p_2 = targetObject.GetComponent<player2>();
+        p_2 = GameObject.FindGameObjectWithTag("player2").GetComponent<player2>();
         targetPosition = rb.position;
     }
 
@@ -128,8 +128,9 @@ public class player : MonoBehaviour
 
         if (collision.gameObject.CompareTag("spike"))
         {
-            Destroy(gameObject);
             p_2.lose = true;
+            Destroy(gameObject);
+            
         }
     }
 }

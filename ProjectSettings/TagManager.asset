@@ -10,6 +10,7 @@ TagManager:
   - spike
   - movable
   - notmovable
+  - player2
   layers:
   - Default
   - TransparentFX
